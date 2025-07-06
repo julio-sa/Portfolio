@@ -1,0 +1,171 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(27,24,38,255);
+    color: white;
+    font-size: 100%;
+}
+
+/* header section */
+.logo_img {
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 70px;
+}
+
+.header-menu-item {
+    font-family: quicksand, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-menu-item:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* presentation section */
+.content {
+    border-top: 0.4px solid white;
+    margin-bottom: 50px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    font-family: quicksand, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 31%;
+    margin-top: 60px;
+    margin-left: 200px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.welcome-title {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+
+.cta-subtitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.description {
+    font-size:  20px;
+}
+
+.me_cartoon {
+    width: 400px;
+    height: 400px;
+    margin-right: 200px;
+}
+
+
+/* contact section */
+.social_media {
+    border-top: 0.4px solid white;
+    width: 30.5%;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+.whatsapp {
+    margin-top: 20px;
+    border: none;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}
+
+.whatsapp_img {
+    width: 40px;
+    height: 40px;
+    margin-top: 3.5px;
+    margin-left: 1.5px;
+}
+
+.whatsapp:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.linkedin {
+    margin-top: 20px;
+    border: none;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}
+
+.linkedin_img {
+    height: 80px;
+    width: 80px;
+    margin-top: -9.8px;
+    margin-left: -9.5px;
+}
+
+.linkedin:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.email {
+    margin-top: 20px;
+    border: none;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}
+
+.email_img {
+    height: 100px;
+    width: 100px;
+    margin-top: -19.85px;
+    margin-left: -19.64px;
+}
+
+.email:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+/* footer */
+.copyright {
+    border-top: 0.4px solid white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Quicksand, sans-serif;
+}
